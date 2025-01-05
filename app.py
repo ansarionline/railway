@@ -9,4 +9,4 @@ def home_page():
     ).style('font-size: 18px;')
 if __name__ in {'__main__','__mp_main__'}:
     port = int(os.environ.get('PORT', 5000))
-    ui.run(host='0.0.0.0', port=port)
+    ui.run(host='0.0.0.0', port=port, reload=False)
